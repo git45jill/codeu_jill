@@ -27,7 +27,7 @@ public class UserTest {
     String name = "test_username";
     Instant creation = Instant.now();
 
-    User user = new User(id, name, creation);
+    User user = new User(id, name, creation, null);
 
     Assert.assertEquals(id, user.getId());
     Assert.assertEquals(name, user.getName());
