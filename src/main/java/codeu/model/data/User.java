@@ -24,6 +24,7 @@ public class User {
   private final UUID id;
   private final String name;
   private final Instant creation;
+  private final String password;
 
   /**
    * Constructs a new User.
@@ -32,10 +33,11 @@ public class User {
    * @param name the username of this User
    * @param creation the creation time of this User
    */
-  public User(UUID id, String name, Instant creation) {
+  public User(UUID id, String name, Instant creation, String password) {
     this.id = id;
     this.name = name;
     this.creation = creation;
+    this.password = password;
   }
 
   /**
