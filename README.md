@@ -2,6 +2,9 @@
 
 This is an example chat application. It's complete and functional, but leaves
 plenty of room for improvement.
+huppa huppa
+rah rah
+zoom zoom
 
 ## Step 1: Download Java
 
